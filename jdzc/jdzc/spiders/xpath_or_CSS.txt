@@ -1,0 +1,18 @@
+//p[@class="p-percent"]/text()
+//h4[@class="link-tit"]/text()
+//li[@class="info"]/text()
+
+sel.xpath('//li[@class="info.type_now"]/h4[@class="link-tit"]/text()').extract()
+
+itm.xpath('//h4[@class="link-tit"]/text()').extract()
+
+sel.css('li.info.type_now h4.link-tit::text').extract()
+sel.css('h4.link-tit::text').extract()
+sel.css('span::text').extract()
+sel.css('li.fore1 p.p-percent::text').extract()
+sel.css('li.fore2 p.p-percent::text').extract()
+sel.css('li.fore3 p.p-percent::text').extract()
+
+
+li.info:nth-child(19)
+html body div.wrap.mt20 div.l-info div.l-result ul.infos.clearfix li.info.type_now div.i-tits a h4.link-tit
